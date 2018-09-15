@@ -1,0 +1,43 @@
+body{
+    
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: #efefef;
+    font-size: 5em;
+    
+    
+}
+
+p {
+    float: top;
+    width: 400px;
+    left: 350px;
+    text-decoration: rgb(14, 168, 168);
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.quiz { 
+        padding: 30px;
+        font-family: sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        float: right;
+        
+
+}
+
+.picture {
+        float: left;
+        display: block;
+        width: 300px;
+       
+        
+}
