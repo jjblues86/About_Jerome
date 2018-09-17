@@ -1,21 +1,28 @@
 /* *{
     border: 1px solid;
 } */
+body {
+    background: silver;
+}
 
 .picture{
-    float: left;
+    float: center;
     display:inline-block;
     width: 35%;
-    max-width: 550px;
+    max-width: 500px;
 }
 
 .text{
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #0c030f;
     font-family: sans-serif;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     display:inline-block;
     width: 45%;
+    float: right;
 }
 
 h1{
@@ -27,8 +34,11 @@ h1{
 
 p { 
     /* left: 350px; */
+    border: 2px solid;
     margin:10px;
     text-decoration: rgb(14, 168, 168);
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #0e0a0a;
 }
 
 /* .quiz { 
