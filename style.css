@@ -6,10 +6,12 @@ body {
 }
 
 .picture{
+    position: absolute;
     float: center;
     display:inline-block;
-    width: 35%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 400px;
+
 }
 
 .text{
@@ -30,6 +32,7 @@ h1{
     padding: 10px;
     background-color: #efefef;
     font-size: 5em;
+    color: rgb(75, 26, 187);
 }
 
 p { 
