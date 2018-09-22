@@ -24,20 +24,20 @@ p {
 }
 
 .quiz { 
-        padding: 30px;
-        font-family: sans-serif;
+        /* padding: 30px; */
+        font-family: fantasy;
         margin-left: auto;
         margin-right: auto;
-        width: auto;
-        float: right;
-        
+        /* width: auto; */
+        /* float: left;
+         */
 
 }
 
 .picture {
-        float: left;
+        float: right;
         display: block;
-        width: 300px;
+        width: auto;
        
         
 }
