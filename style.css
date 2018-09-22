@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(206, 234, 238);
     
 }
 
@@ -7,37 +8,65 @@ h1{
     padding: 10px;
     background-color: #efefef;
     font-size: 5em;
+    color: rgb(21, 6, 34);
     
     
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    background-color: #efefef;
+    font-size: 5em;
+    color: blueviolet;
+
+
+}
+
+a:hover{
+    background-color: rgb(19, 202, 141);
+
+    
+
+
 }
 
 p {
-    float: top;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
     width: 400px;
-    left: 350px;
-    text-decoration: rgb(14, 168, 168);
-    font-family: sans-serif;
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
+    top: 60px;
+    position: relative;
+    box-shadow: 5px 10px 8px black;
+    align-content: center;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+
+
+    
 
 }
 
-.quiz { 
-        /* padding: 30px; */
-        font-family: fantasy;
+ /*.quiz { 
+        padding: 30px;
+        font-family: sans-serif;
         margin-left: auto;
         margin-right: auto;
-        /* width: auto; */
-        /* float: left;
-         */
+        width: auto;
+        float: right;
+        
 
-}
+}*/
 
 .picture {
-        float: right;
-        display: block;
-        width: auto;
-       
+    position: relative;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px black;
+
+        
         
 }
+
