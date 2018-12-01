@@ -6,12 +6,10 @@ body {
 }
 
 .picture{
-    position: absolute;
     float: center;
     display:inline-block;
-    width: 100%;
-    max-width: 400px;
-
+    width: 35%;
+    max-width: 500px;
 }
 
 .text{
@@ -32,7 +30,6 @@ h1{
     padding: 10px;
     background-color: #efefef;
     font-size: 5em;
-    color: rgb(75, 26, 187);
 }
 
 p { 
@@ -43,15 +40,10 @@ p {
     border-radius: 5px;
     box-shadow: 5px 10px 8px #0e0a0a;
 }
-
-/* .quiz { 
-        padding: 30px;
-        font-family: sans-serif;
-        margin-left: auto;
-        margin-right: auto;
         /* width: 50%; */
         /* float: center; */
-        /* display: inline-block */
+        /* display: inline-block
+
 
 
 
