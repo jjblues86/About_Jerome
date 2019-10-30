@@ -103,7 +103,6 @@ function jerseyQ(){
       turns = 0;
       alert('Wonderful!');
       correctAnswers++;
-      //     // break;
     }
 
 
@@ -115,28 +114,20 @@ function jerseyQ(){
 
 function athletesQ(){
   var athletes = ['rooney', 'lebron james', 'rashford'];
-  // var correctAnswer = ('Rooney', 'Lebron');
-  //var wrongPick = true; //You need a variable name for if they dont choose the correct
 
 
   for(var i = 5; i >=0; i--){
-    //console.log(athletes[i]);
     var userPlay = prompt('Can you name my favorite athletes? ');
     userPlay = userPlay.toLowerCase();
 
     if(athletes.includes(userPlay)){
       alert('How did you know that. Rooney,Lebron and Rashford are my favorite athletes');
-      //wrongPick = false;
       correctAnswers++;
       break;
     }else
       alert('No, please try again. You have ' + i + ' guesses left');
   }
 
-  //if(!athletes.includes(userPlay)){
-  //  alert('It is rooney,lebron and rashford');
-  //  break;
-  // }
 }
 
 collegeQ();
@@ -148,27 +139,3 @@ jerseyQ();
 athletesQ();
 
 prompt('You got ' + correctAnswers + ' out of 7 correct!');
-
-
-
-
-// while(tries > 0){
-//   var userPlay = prompt('Can you name my favorite athletes? ');
-
-//   if(userPlay === athletes){
-//       alert('How did you know that');
-//       tries --;
-//   }
-//   if(userPlay !== athletes){
-//       alert('They played for manchester united');
-//       turns --;
-//   }
-//   if(userPlay === athletes){
-//       tries = 0;
-//       alert('Yay!');
-//   }
-// }
-
-
-// while()
-// alert('How did you know that');
